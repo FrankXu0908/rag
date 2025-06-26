@@ -1,0 +1,34 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore model folders and weights
+app/**/Baichuan2-13B-Chat-v*/
+*.safetensors
+*.pt
+*.bin
+*.onnx
+*.gguf
+
+# FAISS / RAG vector stores
+rag/store/faiss_index/
+!rag/store/faiss_index/.gitkeep
+
+# Environment files
+.env
+*.env
+.env.*
+
+# System / editor files
+.DS_Store
+.vscode/
+.idea/
+
+# Logs
+*.log
+*.tmp
+
+# Jupyter checkpoints (if any)
+.ipynb_checkpoints/
