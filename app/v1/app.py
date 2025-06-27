@@ -5,7 +5,7 @@ from rag.retriever import retrieve
 
 
 # Step 1: Load the model ONCE
-model_path = "./Baichuan2-13B-Chat-v2.0.1"  # 模型名称
+model_path = "../../models/Baichuan2-13B-Chat-v2.0.1"  # 模型名称
 llm = LLM(model=model_path, 
           trust_remote_code=True,
           tensor_parallel_size=2,  # 设置张量并行度

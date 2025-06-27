@@ -31,4 +31,4 @@ rag/store/faiss_index/
 *.tmp
 
 # Jupyter checkpoints (if any)
-.ipynb_checkpoints/
+.ipynb_checkpoints/models/Baichuan2-13B-Chat-v2.0.1
